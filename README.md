@@ -23,4 +23,18 @@ Reference:Implement Neural Network In Python | Deep Learning Tutorial 13 (Tensor
 
 Reference: Stochastic Gradient Descent vs Batch Gradient Descent vs Mini Batch Gradient Descent |DL Tutorial 14, codebasics, https://www.youtube.com/watch?v=IU5fuoYBTAM&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=15
 
+## Image Classification Using Artificial neural Network
+- Build model to detect the type of image using Neural Network
+- Dataset: cifar10 from tensorflow</br></br></br>
+
+Reference:GPU bench-marking with image classification | Deep Learning Tutorial 17 (Tensorflow2.0, Python), codebasics, https://www.youtube.com/watch?v=YmDaqXMIoeY&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=17
+
+
+## Customer Chrun Prediction
+- Build a model to predict the whether the customer will continue using the network or cancel/about to cancel the network
+- Perform Data cleaning and Visualization
+- Dataset: Telco Customer Churn, Kaggle, https://www.kaggle.com/datasets/blastchar/telco-customer-churn</br></br></br>
+
+Reference: Customer churn prediction using ANN | Deep Learning Tutorial 18 (Tensorflow2.0, Keras & Python), codebasics, https://www.youtube.com/watch?v=MSBY28IJ47U&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=18
+
  
