@@ -48,4 +48,16 @@ Reference: Customer churn prediction using ANN | Deep Learning Tutorial 18 (Tens
   Reference: Handling imbalanced dataset in machine learning | Deep Learning Tutorial 21 (Tensorflow2.0 & Python), codebasics, https://www.youtube.com/watch?v=JnlM4yLFNuo&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=23
 
 
+## Dropout Regularization
+- Used to tackle the overfitting in neural Network
+- It randomly drop mentioned amount of neron from each layer
+- Dropout help in overfitting as:
+  - It can't rely on one imput as it might be dropped out at random
+  - Neurons will not learn redundant details of inputs
+- Used Rock vs Mine sonar data to perform the regularization(Dataset is added in this repository)</br></br></br>
+
+Refrence: Dropout Regularization | Deep Learning Tutorial 20 (Tensorflow2.0, Keras & Python), codebasics, https://www.youtube.com/watch?v=lcI8ukTUEbo&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=20
+
+
+
  
