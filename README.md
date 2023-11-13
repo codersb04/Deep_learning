@@ -58,6 +58,16 @@ Reference: Customer churn prediction using ANN | Deep Learning Tutorial 18 (Tens
 
 Refrence: Dropout Regularization | Deep Learning Tutorial 20 (Tensorflow2.0, Keras & Python), codebasics, https://www.youtube.com/watch?v=lcI8ukTUEbo&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=20
 
+## Image Classification using CNN
+- Build a deep learning model for image classification using Convolutional Neural Network
+- CNN works in 3 park:
+  - Feature Extraction: Apply Convolution(Feature Map) then Pooling(Max Pooling used in this case)
+  - CLassification
+  - Activation Functions(Relu)
+- Dataset: cifar10 from tensorflow</br></br></br>
+
+Reference: Image classification using CNN (CIFAR10 dataset) | Deep Learning Tutorial 24 (Tensorflow & Python), codebasics, https://www.youtube.com/watch?v=7HPwo4wnJeA&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=24
+
 
 
  
