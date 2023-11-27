@@ -75,6 +75,26 @@ Reference: Image classification using CNN (CIFAR10 dataset) | Deep Learning Tuto
 
 Reference: Data augmentation to address overfitting | Deep Learning Tutorial 26 (Tensorflow, Keras & Python), codebasics, https://www.youtube.com/watch?v=mTVf7BN7S8w&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=30
 
+## Transfer Learning for Flower CLassification
+- **Transfer Learning**: Transfer Learning(TL) is a research problem in Machine Learning that focus on storing kowledge gained while solving one problem and applyng it to a different but related problem. Example, knowledge gained while learning to recognize cars could apply when trying to recognize trucks.
+- Model used: MobilenetV2 Model which is trained at Google with 1.4 million images and have 1000 classes
+- Dataset: Google flower dataset. "https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz"
+- File containing labels for all the classes used in MobilenetV2 Model: "mageNetLabels.txt" (Included in this repository)
+- Model building using the whole pretraining model, Prediction is not very good.
+- Model Building using Feature Vectore. IN this Whole model is used without the last layer, last layer is create according to our dataset with 5 neurons. Prediction is pretty good in this way.</br></br></br>
+
+Reference: Transfer Learning | Deep Learning Tutorial 27 (Tensorflow, Keras & Python), codebasics, https://www.youtube.com/watch?v=LsdxvjLWkIY&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=29
+
+## Bank Customer Churn Prediction
+- Building an Aritficial Neural Network to predict where the customer leaves the bank or not
+- Used ANN for this.
+- Also tried with Dropout layer
+- Dataset is "Churn_modelling" which is included with this repository.</br></br></br>
+
+Reference: Tutorial 17- Create Artificial Neural Network using Weight Initialization Tricks, Krish Naik, https://www.youtube.com/watch?v=OTTOglLJxLU&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi&index=23
+
+
+
 
 
 
