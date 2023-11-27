@@ -85,6 +85,15 @@ Reference: Data augmentation to address overfitting | Deep Learning Tutorial 26 
 
 Reference: Transfer Learning | Deep Learning Tutorial 27 (Tensorflow, Keras & Python), codebasics, https://www.youtube.com/watch?v=LsdxvjLWkIY&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=29
 
+## Bank Customer Churn Prediction
+- Building an Aritficial Neural Network to predict where the customer leaves the bank or not
+- Used ANN for this.
+- Also tried with Dropout layer
+- Dataset is "Churn_modelling" which is included with this repository.</br></br></br>
+
+Reference: Tutorial 17- Create Artificial Neural Network using Weight Initialization Tricks, Krish Naik, https://www.youtube.com/watch?v=OTTOglLJxLU&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi&index=23
+
+
 
 
 
