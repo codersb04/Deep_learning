@@ -104,6 +104,13 @@ Reference: Tutorial 17- Create Artificial Neural Network using Weight Initializa
 
 Reference : Tutorial 18- Hyper parameter Tuning To Decide Number of Hidden Layers in Neural Network, Krish Naik, https://www.youtube.com/watch?v=OSJOBH2-a9Y&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi&index=27
 
+## Fashion MNIST with CNN and Hyperparameter Tunning
+- CLassify the items in Fashion MNIST Dataset using CNN
+- Hyperparameter tunning is done for **number of filters**, **size of filter map** and **learning rate**
+- **RandomSearchCV** is used for get the best hyperparameters
+- **Sparse Crossentropy** is used for calculating loss and **Accuracy** is used for performance metrics</br></br></br>
+
+Reference: Tutorial 27- Create CNN Model and Optimize using Keras Tuner- Deep Learning, Krish Naik, https://www.youtube.com/watch?v=OzLAdpqm35E&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi&index=36
 
 
 
