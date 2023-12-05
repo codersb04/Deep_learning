@@ -85,6 +85,26 @@ Reference: Data augmentation to address overfitting | Deep Learning Tutorial 26 
 
 Reference: Transfer Learning | Deep Learning Tutorial 27 (Tensorflow, Keras & Python), codebasics, https://www.youtube.com/watch?v=LsdxvjLWkIY&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=29
 
+## Bank Customer Churn Prediction
+- Building an Aritficial Neural Network to predict where the customer leaves the bank or not
+- Used ANN for this.
+- Also tried with Dropout layer
+- Dataset is "Churn_modelling" which is included with this repository.</br></br></br>
+
+Reference: Tutorial 17- Create Artificial Neural Network using Weight Initialization Tricks, Krish Naik, https://www.youtube.com/watch?v=OTTOglLJxLU&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi&index=23
+
+## Bank Customer Churn Prediction using Hyperparameter TUnning
+- Predict the Bank Churn using hyperparameter tunning in Neural Networks
+- Used **KerasCLassifier** to build the model.
+- TO import KerasLibrary, **scikeras** pacakage is used. (pip install scikeras)
+- Hyperparameter tunning is used for the **number of layers** and **number of neurons** in each layer. Also for the different **activation function** i.e. sigmoid and relu
+- Binary Cross Entropy is used to calculate the loss with accuracy and metrics and adam optimizer
+- While training the model with GridSearchCV code was giving error, so did a small changes in namimg i.e instead of giving it as layers, activation we named it as model__layers, model_activation anf model__param_grid, this changes help the code to execute without error and giving the accuracy of 85%
+- Used GridSearchCV: In this each and every parameter is tried with each other in order to get the best hyperparameter</br></br></br>
+
+Reference : Tutorial 18- Hyper parameter Tuning To Decide Number of Hidden Layers in Neural Network, Krish Naik, https://www.youtube.com/watch?v=OSJOBH2-a9Y&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi&index=27
+
+
 
 
 
