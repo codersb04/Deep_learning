@@ -93,7 +93,32 @@ Reference: Transfer Learning | Deep Learning Tutorial 27 (Tensorflow, Keras & Py
 
 Reference: Tutorial 17- Create Artificial Neural Network using Weight Initialization Tricks, Krish Naik, https://www.youtube.com/watch?v=OTTOglLJxLU&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi&index=23
 
+## Bank Customer Churn Prediction using Hyperparameter TUnning
+- Predict the Bank Churn using hyperparameter tunning in Neural Networks
+- Used **KerasCLassifier** to build the model.
+- TO import KerasLibrary, **scikeras** pacakage is used. (pip install scikeras)
+- Hyperparameter tunning is used for the **number of layers** and **number of neurons** in each layer. Also for the different **activation function** i.e. sigmoid and relu
+- Binary Cross Entropy is used to calculate the loss with accuracy and metrics and adam optimizer
+- While training the model with GridSearchCV code was giving error, so did a small changes in namimg i.e instead of giving it as layers, activation we named it as model__layers, model_activation anf model__param_grid, this changes help the code to execute without error and giving the accuracy of 85%
+- Used GridSearchCV: In this each and every parameter is tried with each other in order to get the best hyperparameter</br></br></br>
 
+Reference : Tutorial 18- Hyper parameter Tuning To Decide Number of Hidden Layers in Neural Network, Krish Naik, https://www.youtube.com/watch?v=OSJOBH2-a9Y&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi&index=27
+
+## Fashion MNIST with CNN and Hyperparameter Tunning
+- CLassify the items in Fashion MNIST Dataset using CNN
+- Hyperparameter tunning is done for **number of filters**, **size of filter map** and **learning rate**
+- **RandomSearchCV** is used for get the best hyperparameters
+- **Sparse Crossentropy** is used for calculating loss and **Accuracy** is used for performance metrics</br></br></br>
+
+Reference: Tutorial 27- Create CNN Model and Optimize using Keras Tuner- Deep Learning, Krish Naik, https://www.youtube.com/watch?v=OzLAdpqm35E&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi&index=36
+
+## Breast Cancer Prediction using Tensorflow
+- Predict whether the TUmor is Malignant or Benign
+- Standardize the data using Standard scaler to improve model performance
+- BUild a predictive system.
+- Data used is from sklearn.datasets.load_breast_cancer()</br></br></br>
+
+Reference: DL Project 1. Breast Cancer Classification with Neural Network | Deep Learning Projects in Python, Siddhardhan, https://www.youtube.com/watch?v=WGNI-k20GNo&list=PLfFghEzKVmjvyT7wdfDJSHhS0FdF8jd-U&index=1
 
 
 
