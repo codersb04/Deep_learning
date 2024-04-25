@@ -112,6 +112,13 @@ Reference : Tutorial 18- Hyper parameter Tuning To Decide Number of Hidden Layer
 
 Reference: Tutorial 27- Create CNN Model and Optimize using Keras Tuner- Deep Learning, Krish Naik, https://www.youtube.com/watch?v=OzLAdpqm35E&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi&index=36
 
+## Breast Cancer Prediction using Tensorflow
+- Predict whether the TUmor is Malignant or Benign
+- Standardize the data using Standard scaler to improve model performance
+- BUild a predictive system.
+- Data used is from sklearn.datasets.load_breast_cancer()</br></br></br>
+
+Reference: DL Project 1. Breast Cancer Classification with Neural Network | Deep Learning Projects in Python, Siddhardhan, https://www.youtube.com/watch?v=WGNI-k20GNo&list=PLfFghEzKVmjvyT7wdfDJSHhS0FdF8jd-U&index=1
 
 
 
